@@ -1,9 +1,9 @@
 # SistemaGestionTurnos
 
-**Emperador Javier**
+**__Nombre:__ Emperador Javier**
 
-**Programacion Orientada a Objeto - Tecnicatura Universitaria en Programación de Sistemas**
+**__Materia:__ Programacion Orientada a Objeto - __Carrera:__ Tecnicatura Universitaria en Programación de Sistemas**
 
-**Lic. Matias Velasquez**
+**__Profesor:__ Lic. Matias Velasquez**
 
-**2025**
+**__Año:__ 2025**
