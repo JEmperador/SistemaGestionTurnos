@@ -1,4 +1,4 @@
-# Sistema de Gestión de Turnos - Diseño del Sistema
+# Sistema de Gestión de Turnos
 
 **Nombre: _Emperador Javier_**
 
