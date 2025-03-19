@@ -1,9 +1,17 @@
-# SistemaGestionTurnos
+# Sistema de Gestión de Turnos
 
-**__Nombre:__ Emperador Javier**
+**Nombre: _Emperador Javier_**
 
-**__Materia:__ Programacion Orientada a Objeto - __Carrera:__ Tecnicatura Universitaria en Programación de Sistemas**
+**Materia: _Diseño Orientado a Objetos - Tecnicatura Universitaria en Programación de Sistemas_**
 
-**__Profesor:__ Lic. Matias Velasquez**
+**Profesor: _Lic. Matias Velasquez_**
 
-**__Año:__ 2025**
+**Año: _2025_**
+
+# Introducción
+
+Este proyecto tiene como objetivo desarrollar un sistema de gestión de turnos para un centro de salud, aplicando los principios de la Programación Orientada a Objetos (POO). El sistema permitirá la organización de turnos médicos, el registro de pacientes y profesionales, y la notificación automática de cambios en los turnos.
+
+# Diagramas y Diseños
+
+- [Anexos](anexos.md)
