@@ -6,10 +6,10 @@ La Programación Orientada a Objetos (POO) es un paradigma de programación que 
 
 ## Los cuatro fundamentos de POO
 
-1. **Abstracción**: Representar características esenciales de un objeto.
-2. **Encapsulamiento**: Ocultar los detalles internos de un objeto.
-3. **Herencia**: Crear nuevas clases a partir de clases existentes.
-4. **Polimorfismo**: Permitir que diferentes clases respondan al mismo mensaje.
+1. **Abstracción**: Representar las características y métodos esenciales de un objeto.
+2. **Encapsulamiento**: Exponer solo los datos necesarios y ocultar los detalles internos de un objeto.
+3. **Herencia**: Crear nuevas clases heredando características y métodos de clases existentes.
+4. **Polimorfismo**: Permitir que un objeto se comporte de diferentes formas dependiendo del contexto.
 
 ## Requisitos iniciales del sistema
 
