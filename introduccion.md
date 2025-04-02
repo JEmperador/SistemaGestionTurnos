@@ -58,7 +58,6 @@ La Programación Orientada a Objetos (POO) es un paradigma de programación que 
 
 ## Boceto inicial del diseño de clases
 
-![Boceto de diseño de clasesV1](https://github.com/user-attachments/assets/1faa88f3-2a28-4377-8c5a-f9ee4518b64a)
+![Boceto de diseño de clasesV1](https://github.com/user-attachments/assets/a52253ab-4726-4077-8c72-fa194af129f0)
 
 [Link](https://drive.google.com/file/d/1d95FdpmiUDiU7muDN2-NfFQqiabEBFIW/view?usp=sharing) de archivo uxf para [umletino](https://www.umletino.com/)
-
