@@ -37,7 +37,7 @@ La Programación Orientada a Objetos (POO) es un paradigma de programación que 
    - **Actor**: Recepcionista
    - **Descripción**: Asignar un turno a un paciente.
    - **Flujo principal**: Se verifica la identidad del paciente mediante su DNI, Apellido y Nombre, ya sea de forma presencial o virtual.
-   Se comprueba que no tenga un turno asignado en el mismo horario del mismo día, y se procede a asignar un médico (ya registrado en el sistema) y un horario disponible.
+   Se comprueba que no tenga un turno asignado en el mismo horario del mismo día, y se procede a asignar un doctor (ya registrado en el sistema) y un horario disponible.
    Una vez confirmada la asignación, se informa al paciente por correo electrónico o mensaje de texto.
    - **Precondiciones**: El paciente y el medico deben estar registrados, a su vez no debe tener un turno asignado previamente a la misma hora el mismo dia.
    - **Postcondiciones**: El turno queda asignado y se notifica al paciente.
@@ -46,13 +46,13 @@ La Programación Orientada a Objetos (POO) es un paradigma de programación que 
    - **Actor**: Paciente o Recepcionista
    - **Descripción**: Cancelar un turno asignado.
    - **Flujo principal**: Se valida la identidad del paciente mediante DNI, Apellido y Nombre, ya sea presencial o virtualmente.
-   Se comprueba que exista un turno previamente asignado que coincida con los datos provistos (médico y horario) y que el mismo se encuentre activo.
+   Se comprueba que exista un turno previamente asignado que coincida con los datos provistos (doctor y horario) y que el mismo se encuentre activo.
    Luego se procede a actualizar su estado a cancelado. Una vez confirmada la cancelación, se informa al paciente por los medios de contacto registrados.
    - **Precondiciones**: El paciente y el medico deben estar registrados, a su vez el turno debe estar asignado previamente.
    - **Postcondiciones**: El turno queda cancelado y se notifica al paciente.
 
 4. **Consultar Historial**
-   - **Actor**: Médico o Recepcionista
+   - **Actor**: Doctor o Recepcionista
    - **Descripción**: Consultar el historial de turnos de un paciente.
    - **Flujo principal**: Se selecciona al paciente mediante su DNI, ya sea de forma presencial o virtual.
    Se verifica la existencia de turnos previamente cargados y se validan sus respectivos estados.
@@ -62,11 +62,9 @@ La Programación Orientada a Objetos (POO) es un paradigma de programación que 
 5. **Enviar Notificación**
    - **Actor**: Sistema
    - **Descripción**: Enviar notificación de cambio en un turno.
-   - **Flujo principal**: Al detectarse una modificación en el estado del turno y/o en la información del paciente o del médico, el sistema procede a enviar notificaciones automáticas utilizando los datos de contacto disponibles.
+   - **Flujo principal**: Al detectarse una modificación en el estado del turno y/o en la información del paciente o del doctor, el sistema procede a enviar notificaciones automáticas utilizando los datos de contacto disponibles.
    - **Precondiciones**: El paciente debe estar registrado, el turno debe estar asignado.
-   - **Postcondiciones**: La notificación es enviada al paciente y al médico.
-
-6. 
+   - **Postcondiciones**: La notificación es enviada al paciente y al doctor.
 
 ## Boceto inicial del diseño de clases
 
