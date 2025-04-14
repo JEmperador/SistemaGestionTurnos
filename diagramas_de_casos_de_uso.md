@@ -1,7 +1,7 @@
 # Diagramas de Casos de Uso
 
-- [Caso de Uso - Registrar Paciente](https://drive.google.com/file/d/1JXvGc00_m3aPGcJB1O5nHz8l03JxELKA/view?usp=drive_link)
-- [Caso de Uso - Asignar Turno](https://drive.google.com/file/d/1u9zF1bghPyX1CDZlE_07zHVg52x_4dgw/view?usp=drive_link)
-- [Caso de Uso - Cancelar Turno](https://drive.google.com/file/d/1bjXLiXXAx8h3_2GAya-xDvQY5_kU0CbR/view?usp=drive_link)
-- [Caso de Uso - Consultar Historial](https://drive.google.com/file/d/14Iaw-eLLYoxCiH0TgzLdy5UW8PpzLz3U/view?usp=drive_link)
-- [Caso de Uso - Enviar Notificación](https://drive.google.com/file/d/1fSFZb2l7JH8WsPXyaZfHg5utk-hXMj_L/view?usp=drive_link)
+- [Caso de Uso - Registrar paciente](https://drive.google.com/file/d/1BCJgbnzJMEQKBVMx4ZPKvwZjD9verb81/view?usp=sharing)
+- [Caso de Uso - Asignar turno](https://drive.google.com/file/d/1iob1ruqHuTeAc-5SAShSuAfnttP9mv2l/view?usp=sharing)
+- [Caso de Uso - Cancelar turno](https://drive.google.com/file/d/1A6NyMwsnmW06lQ13wfgN1QgzAlIOsw8k/view?usp=sharing)
+- [Caso de Uso - Consultar historial](https://drive.google.com/file/d/1IPqwGxR5BoqdjhV6omZIma-WAzuddoV_/view?usp=sharing)
+- [Caso de Uso - Informar cambio](https://drive.google.com/file/d/1ZVRdkn3KwHEwCXQTqblEzQQ_bKOsjBrq/view?usp=sharing)
