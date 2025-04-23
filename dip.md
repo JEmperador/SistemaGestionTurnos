@@ -4,7 +4,7 @@ Establece que los módulos de alto nivel no deben depender de módulos de bajo n
 ## Motivación
 ___Inconveniente:___ La clase ``SistemaGestionTurnos`` depende directamente de ``Patient`` y ``Doctor`` para acceder a datos como ``email`` y ``contact``, creando código duplicado y acoplamiento fuerte. Cambios en ``SistemaGestionTurnos`` requieren modificar ambas clases.
 
-___Cómo lo soluciona:___ La abstracción ``Person`` centraliza los datos comunes. ``Patient`` y ``Doctor`` heredan de ``Person``, mientras que ``SistemaGestionTurnos`` usa esta abstracción. Elimina duplicación, reduce acoplamiento y facilita cambios futuros.
+___Cómo lo soluciona:___ La abstracción ``Person`` centraliza los datos comunes. ``IPatient`` e ``IDoctor`` heredan de ``Person``, mientras que ``SistemaGestionTurnos`` usa estas abstracciones (``IPatient``, ``IDoctor``). Elimina duplicación, reduce acoplamiento y facilita cambios futuros.
 
 ___Ejemplo del mundo real:___ Si conectás tu notebook a internet usando Wi-Fi o cable, da igual: siempre usás una interfaz de red. Cambiar el tipo de conexión no te obliga a cambiar tu sistema operativo.
 
