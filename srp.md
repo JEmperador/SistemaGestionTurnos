@@ -9,3 +9,6 @@ ___Cómo lo soluciona:___ Separando responsabilidades, podríamos tener una clas
 ___Ejemplo del mundo real:___ En un hospital, la oficina de admisión gestiona tus datos, y otra área se encarga de tus estudios clínicos. No tienen por qué estar juntas. En software, deberíamos diseñar igual.
 
 ## Estructura de Clases
+![SRP](https://github.com/user-attachments/assets/33a598bc-41eb-40b8-88d4-515039bf0670)
+<br>
+[Link](https://drive.google.com/file/d/1RhbiAJEjSBePJRSgYoT31V1Ral4kFDeO/view?usp=sharing) a diagrama .uxf para ser utilizado en para [UMLetino](https://www.umletino.com/)
