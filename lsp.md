@@ -9,3 +9,6 @@ ___Cómo lo soluciona:___ Aplicando LSP, se asegura que todas las subclases resp
 ___Ejemplo del mundo real:___ Si en una oficina todos los empleados deben marcar su entrada, no importa si es el jefe o el recepcionista: todos deben usar el mismo mecanismo. Si uno no puede (por ejemplo, porque no tiene tarjeta), rompe el sistema.
 
 ## Estructura de Clases
+![LSP](https://github.com/user-attachments/assets/b84d928d-439a-4108-8eef-4a2408e230ac)
+<br>
+[Link](https://drive.google.com/file/d/1Z4reb_GMqzaY3vnk0VsPoGShB23T0PPo/view?usp=sharing) a diagrama .uxf para ser utilizado en para [UMLetino](https://www.umletino.com/)
