@@ -9,3 +9,6 @@ ___Cómo lo soluciona:___ Diseñando el sistema para depender de abstracciones (
 ___Ejemplo del mundo real:___ Un software de recetas puede aceptar ingredientes nuevos sin modificar el sistema. Solo agregás una clase nueva con los métodos requeridos y listo, sin tocar el código ya existente.
 
 ## Estructura de Clases
+![OCP](https://github.com/user-attachments/assets/af3d202e-40b9-4b99-875f-dfac10067102)
+<br>
+[Link](https://drive.google.com/file/d/1BqbDcyZK-_6ShKtLORUC7wF9N5DWcMlN/view?usp=sharing) a diagrama .uxf para ser utilizado en para [UMLetino](https://www.umletino.com/)
