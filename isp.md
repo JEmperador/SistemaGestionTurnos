@@ -1,12 +1,18 @@
 # Principio de Segregación de Interfaces (ISP)
-Indica que, por ejemplo, los clientes no deberían estar forzados a depender de interfaces que no usan. Es un principio de diseño modular.
+Este principio establece que una clase no debe verse obligada a depender de métodos que no utiliza. Es un principio de diseño de interfaces.
 
 ## Motivación
-___Inconveniente:___ Al crear una interfaz ``IPerson`` que incluye métodos como ``requestAppointment()`` o ``getMedicalHistory()``, se esta forzando a todas las clases que implementen esa interfaz, incluyendo ``Doctor``, a declarar métodos que no tiene sentido que usen. Esto aumenta el acoplamiento y la fragilidad del código.
+___Inconveniente:___ Al crear una interfaz para `Person` que incluye métodos como `registerNurse()` o `getDetailDoctor()`, se está forzando a todas las clases que implementen esa interfaz, incluyendo a clases que dependen de `Person`, a incluir métodos que no necesitan. Esto no solo genera una implementación innecesaria, sino que también acopla el código a funcionalidades que no le conciernen, dificultando su mantenimiento y comprensión.
 
-___Cómo lo soluciona:___ Al dividir la interfaz en otras más pequeñas y especializadas (``IPatientActions``, ``IDoctorActions``), cada clase puede implementar solo lo que necesita. Así, los cambios en una parte del sistema no afectan innecesariamente a otras.
+Esto viola el **Principio de Segregación de Interfaces (ISP)**, que establece que "los clientes no deben verse obligados a depender de interfaces que no utilizan".
 
-___Ejemplo del mundo real:___ Un formulario digital para pacientes y médicos debería tener campos diferentes. No tendría sentido que el médico complete su "número de obra social" como si fuera paciente.
+___Solución propuesta:___ Haciendo uso de **ISP**, se deben dividir las interfaces en otras más pequeñas y especializadas. Por ejemplo:
+ - `IPatientRegistration` para `Patient` consumido mediante `PatientService`.
+ - `IDoctorUpdateData` para `Doctor` consumido mediante `DoctorService`.
+
+ Cada clase puede implementar únicamente las interfaces que le son relevantes. Esto reduce el acoplamiento, mejora la cohesión y hace que los cambios futuros afecten solo a las partes necesarias del sistema. Además, el uso de servicios concretos para cada interfaz favorece un diseño más ordenado y mantenible.
+
+___Ejemplo del mundo real:___ Un formulario digital para pacientes y médicos debería tener campos diferentes. No tendría sentido que el médico complete su "número de obra social" como si fuera paciente, o que el paciente tenga que ingresar su "matrícula profesional". De igual manera, en el código, cada clase o componente debe tener acceso únicamente a lo que realmente necesita y utilizar interfaces adecuadas a su contexto.
 
 ## Estructura de Clases
 ![ISP](https://github.com/user-attachments/assets/fe234fb9-ea73-48ae-a67b-6679aaadadec)

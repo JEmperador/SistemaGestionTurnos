@@ -2,11 +2,13 @@
 Establece que una subclase debe poder reemplazar a su clase base sin alterar el comportamiento del programa. Es un principio de comportamiento.
 
 ## Motivación
-___Inconveniente:___ Si una función trabaja con objetos de tipo ``Person``, debería poder recibir una instancia de ``Patient`` o ``Doctor`` y funcionar sin errores. Pero si Doctor no implementa correctamente métodos esperados, como ``getHealthInsuranceNumber()``, podría lanzar errores, romper flujos o producir comportamientos incoherentes.
+___Inconveniente:___ Supongamos que las clases `Patient` o `Doctor` implementan métodos que no están definidos en su clase base `Person`, o que su comportamiento difiere notablemente. En ese caso, se rompe el **Principio de Sustitución de Liskov (LSP)**, ya que los objetos derivados (`Patient`, `Doctor`) no pueden ser utilizados de manera intercambiable con la clase base (`Person`) sin alterar la lógica del sistema.
 
-___Cómo lo soluciona:___ Aplicando LSP, se asegura que todas las subclases respeten el contrato de la clase base. Si ``Person`` define ciertos métodos o propiedades, todas las subclases deben comportarse de forma compatible, aunque internamente lo manejen distinto.
+___Solución propuesta:___ Para cumplir con **LSP**, es fundamental que todas las subclases respeten el contrato de la clase base. Si `Person` define ciertos métodos o propiedades, entonces `Patient`, `Doctor`, y cualquier otra subclase como `Nurse`, deben comportarse de manera coherente con esas definiciones, incluso si su implementación interna varía.
 
-___Ejemplo del mundo real:___ Si en una oficina todos los empleados deben marcar su entrada, no importa si es el jefe o el recepcionista: todos deben usar el mismo mecanismo. Si uno no puede (por ejemplo, porque no tiene tarjeta), rompe el sistema.
+Una forma efectiva de lograr esto es mediante el uso de interfaces. Así, cada clase concreta puede implementar comportamientos específicos mientras garantiza la compatibilidad estructural y de comportamiento definida por la abstracción. Al centralizar estas interfaces en servicios, también se logra mayor orden y claridad en el diseño general del sistema.
+
+___Ejemplo del mundo real:___ En una empresa, todos los empleados deben registrar su ingreso mediante el mismo sistema, ya sea el director o el recepcionista. Si uno de ellos no puede hacerlo (por ejemplo, porque no tiene tarjeta o porque usa un sistema distinto), el flujo se rompe y deja de ser confiable. En software, ocurre lo mismo cuando una subclase no cumple con las expectativas establecidas por su clase base.
 
 ## Estructura de Clases
 ![LSP](https://github.com/user-attachments/assets/b84d928d-439a-4108-8eef-4a2408e230ac)

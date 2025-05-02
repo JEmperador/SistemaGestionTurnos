@@ -2,11 +2,14 @@
 Este principio establece que una entidad debe estar abierta a la extensión pero cerrada a la modificación. Es un principio de diseño orientado a la evolución del sistema sin romper lo que ya funciona.
 
 ## Motivación
-___Inconveniente:___ Si a futuro se incorpora un nuevo rol, como ``Nurse``, y la lógica está directamente en clases como ``Person`` o ``Doctor``, hay que modificar esas clases para agregar lógica nueva. Esto es riesgoso porque puede romper funcionalidades ya probadas.
+___Inconveniente:___ Si quisiéramos agregar un nuevo rol, como `Nurse`, podríamos pensar en reutilizar la clase `Doctor` como base. Sin embargo, esto sería un error de diseño, ya que `Nurse` y `Doctor` no comparten necesariamente los mismos comportamientos ni responsabilidades. Reutilizar una clase inadecuada implicaría modificar constantemente `Doctor` cada vez que necesitemos adaptar algo para `Nurse`, violando así el **Principio de Abierto/Cerrado (ORP)**.
 
-___Cómo lo soluciona:___ Diseñando el sistema para depender de abstracciones (``Person`` como clase base, por ejemplo), de esa forma, extenderla con nuevas clases (``Nurse``, ``Admin``, etc.) que sobrescriben métodos, sin tocar código anterior.
+___Solución propuesta:___ Aplicando **OCP**, el sistema debe estar **abierto a la extensión pero cerrado a la modificación**. Esto se logra creando una clase base `Person` que contenga los datos comunes (como `documentNumber`, `name`, `lastName`, etc.) y luego extenderla mediante clases como `Doctor`, `Patient`, `Nurse`, `Admin`, entre otras.
 
-___Ejemplo del mundo real:___ Un software de recetas puede aceptar ingredientes nuevos sin modificar el sistema. Solo agregás una clase nueva con los métodos requeridos y listo, sin tocar el código ya existente.
+Cada clase concreta podrá tener sus propios atributos y comportamientos sin afectar las demás. Además, mediante el uso de interfaces y servicios específicos para cada rol, podemos mantener un diseño desacoplado y flexible, favoreciendo la evolución del sistema sin romper su estructura.
+
+___Ejemplo del mundo real:___ En un hospital, al principio solo puede haber un `Doctor` para atender pacientes. Con el tiempo, se incorpora nuevo personal como `Nurse`, personal administrativo, o técnicos de laboratorio.  
+Cada uno cumple funciones distintas, pero todos forman parte del sistema hospitalario. El software debe ser capaz de adaptarse a esta diversidad sin alterar lo ya construido, simplemente extendiendo el sistema para incluir nuevas entidades sin modificar el código existente.
 
 ## Estructura de Clases
 ![OCP](https://github.com/user-attachments/assets/af3d202e-40b9-4b99-875f-dfac10067102)
