@@ -12,6 +12,8 @@ ___Ejemplo del mundo real:___ En un hospital, al principio solo puede haber un `
 Cada uno cumple funciones distintas, pero todos forman parte del sistema hospitalario. El software debe ser capaz de adaptarse a esta diversidad sin alterar lo ya construido, simplemente extendiendo el sistema para incluir nuevas entidades sin modificar el código existente.
 
 ## Estructura de Clases
-![OCP](https://github.com/user-attachments/assets/af3d202e-40b9-4b99-875f-dfac10067102)
+![OCP](https://github.com/user-attachments/assets/a38f8080-c592-4ba3-be39-0e4f8584e46b)
 <br>
-[Link](https://drive.google.com/file/d/1BqbDcyZK-_6ShKtLORUC7wF9N5DWcMlN/view?usp=sharing) a diagrama .uxf para ser utilizado en para [UMLetino](https://www.umletino.com/)
+[Link](https://drive.google.com/file/d/1pn4xhkA0dYJSIFR3W7fnIM5IqVNSZ7IV/view?usp=sharing) a diagrama .uxf para ser utilizado en para [UMLetino](https://www.umletino.com/)
+
+
