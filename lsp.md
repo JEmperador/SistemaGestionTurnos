@@ -11,6 +11,6 @@ Una forma efectiva de lograr esto es mediante el uso de interfaces. Así, cada c
 ___Ejemplo del mundo real:___ En una empresa, todos los empleados deben registrar su ingreso mediante el mismo sistema, ya sea el director o el recepcionista. Si uno de ellos no puede hacerlo (por ejemplo, porque no tiene tarjeta o porque usa un sistema distinto), el flujo se rompe y deja de ser confiable. En software, ocurre lo mismo cuando una subclase no cumple con las expectativas establecidas por su clase base.
 
 ## Estructura de Clases
-![LSP](https://github.com/user-attachments/assets/b84d928d-439a-4108-8eef-4a2408e230ac)
+![LSP](https://github.com/user-attachments/assets/3a4c7616-aa7c-4188-817e-4a965937b9e5)
 <br>
-[Link](https://drive.google.com/file/d/1Z4reb_GMqzaY3vnk0VsPoGShB23T0PPo/view?usp=sharing) a diagrama .uxf para ser utilizado en para [UMLetino](https://www.umletino.com/)
+[Link](https://drive.google.com/file/d/1R0z_afAycGWZs-NeEzB5PjbnsJriHY-Y/view?usp=sharing) a diagrama .uxf para ser utilizado en para [UMLetino](https://www.umletino.com/)
