@@ -7,8 +7,8 @@ ___Inconveniente:___ Al crear una interfaz para `Person` que incluye métodos co
 Esto viola el **Principio de Segregación de Interfaces (ISP)**, que establece que "los clientes no deben verse obligados a depender de interfaces que no utilizan".
 
 ___Solución propuesta:___ Haciendo uso de **ISP**, se deben dividir las interfaces en otras más pequeñas y especializadas. Por ejemplo:
- - `IPatientRegistration` para `Patient` consumido mediante `PatientService`.
- - `IDoctorUpdateData` para `Doctor` consumido mediante `DoctorService`.
+ - `PatientRegistration` para `Patient` consumido mediante `IPatientService`.
+ - `DoctorUpdateData` para `Doctor` consumido mediante `IDoctorService`.
 
  Cada clase puede implementar únicamente las interfaces que le son relevantes. Esto reduce el acoplamiento, mejora la cohesión y hace que los cambios futuros afecten solo a las partes necesarias del sistema. Además, el uso de servicios concretos para cada interfaz favorece un diseño más ordenado y mantenible.
 
