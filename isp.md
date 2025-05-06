@@ -15,6 +15,6 @@ ___Solución propuesta:___ Haciendo uso de **ISP**, se deben dividir las interfa
 ___Ejemplo del mundo real:___ Un formulario digital para pacientes y médicos debería tener campos diferentes. No tendría sentido que el médico complete su "número de obra social" como si fuera paciente, o que el paciente tenga que ingresar su "matrícula profesional". De igual manera, en el código, cada clase o componente debe tener acceso únicamente a lo que realmente necesita y utilizar interfaces adecuadas a su contexto.
 
 ## Estructura de Clases
-![ISP](https://github.com/user-attachments/assets/fe234fb9-ea73-48ae-a67b-6679aaadadec)
+![ISP](https://github.com/user-attachments/assets/8e60e250-ff6c-4551-a07c-e1d9f0662d0a)
 <br>
-[Link](https://drive.google.com/file/d/1Jk70HP7A-h6k1oya4vKevlVkqEszgFyE/view?usp=sharing) a diagrama .uxf para ser utilizado en para [UMLetino](https://www.umletino.com/)
+[Link](https://drive.google.com/file/d/12eCh5WEeUfO96Ps1CraXcjpjb6NTQdlt/view?usp=sharing) a diagrama .uxf para ser utilizado en para [UMLetino](https://www.umletino.com/)
