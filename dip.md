@@ -9,6 +9,6 @@ ___Solución propuesta:___ Aplicando **DIP**, la clase `SistemaGestionTurnos`, e
 ___Ejemplo del mundo real:___ En un hospital, todas las personas (doctores, pacientes, personal administrativo, etc.) comparten datos básicos como nombre, apellido y documento. Si el sistema de turnos necesitara trabajar directamente con los datos específicos de cada uno, se volvería complejo y rígido. En cambio, al trabajar con una abstracción común como `Persona`, el sistema puede interactuar con cualquiera de ellos sin depender de detalles concretos, facilitando así su escalabilidad y mantenimiento.
 
 ## Estructura de Clases
-![DIP](https://github.com/user-attachments/assets/7c5e0331-1914-4531-abb1-a1188cfef593)
+![DIP](https://github.com/user-attachments/assets/1b96f69f-a019-4605-b4a6-5ff8be4ae526)
 <br>
-[Link](https://drive.google.com/file/d/1PhuTlvZfFz43mejSKmyiLwN3Z8JqeSD1/view?usp=sharing) a diagrama .uxf para ser utilizado en para [UMLetino](https://www.umletino.com/)
+[Link](https://drive.google.com/file/d/1oN9AQ8HTUi1lgLLG12E3CIwrcP_BzJFh/view?usp=sharing) a diagrama .uxf para ser utilizado en para [UMLetino](https://www.umletino.com/)
